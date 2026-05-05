@@ -1,0 +1,14 @@
+Fixed (Reference) Parameters:
+
+Center distance: a = 100 mm
+Transmitted torque: T = 150 N·m
+Input speed: n = 1450 rpm
+Pressure angle: φ = 20°
+Young’s modulus: E = 206 GPa
+Poisson’s ratio: ν = 0.3
+Allowable bending stress: σb,allow = 220 MPa
+Allowable contact stress: σc,allow = 900 MPa
+Overload factor: Ko = 1.25
+Size factor: Ks = 1.0
+Load distribution factor: KH = 1.6
+Gear quality number: Qv = 6

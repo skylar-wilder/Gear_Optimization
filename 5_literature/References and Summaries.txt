@@ -1,0 +1,21 @@
+[1] Shigley’s Mechanical Engineering Design
+Type: Textbook
+Used for: Fatigue life modeling (S-N curves), gear stress fundamentals, overall mechanical fundamentals
+Link: https://www.mheducation.com/
+
+
+[2] AGMA 2001-D04, Fundamental Rating Factors and Calculation Methods for Involute Spur and Helical Gear Teeth, American Gear Manufacturers Association, 2004
+Type: Standard
+Used for: Contact stress equation, dynamic factor K_v, overall AGMA-based stress modeling framework
+Link: https://www.agma.org/
+
+[3] AGMA 908-B89 – Geometry Factors for Gear Teeth
+Type: Standard
+Used for: Geometry factors J (bending) and I (contact), accounting for tooth shape effects on stress
+Link: https://www.agma.org/
+
+[4] Norton – Machine Design: An Integrated Approach
+Type: Textbook
+Used for: Practical design considerations, interpretation of results, face width selection, real-world constraints
+Link: https://www.pearson.com/
+

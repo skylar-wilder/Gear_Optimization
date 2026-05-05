@@ -1,0 +1,6 @@
+Just ensure that you have the following libraries, and the run the script using python. 
+
+Libraries:
+
+1. NumPy 
+2. Matplotlib

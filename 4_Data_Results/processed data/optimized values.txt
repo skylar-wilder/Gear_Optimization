@@ -1,0 +1,13 @@
+keeping the reference, the values obtained after optimization:
+
+Number of teeth (pinion): Z1 = 20
+Number of teeth (gear): Z2 = 20
+Pitch line velocity: V = 7.59 m/s
+Dynamic factor: Kv = 1.072
+Geometry factor: J = 0.799
+Bending stress: σb = 26.8 MPa
+Contact stress: σc = 693.3 MPa
+Bending fatigue life: Nb = 1.58 × 10¹⁰ cycles
+Contact fatigue life: Nc = 4.79 × 10⁷ cycles
+Overall life: 4.79 × 10⁷ cycles
+Contact ratio: ε = 1.557

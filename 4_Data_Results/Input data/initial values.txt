@@ -1,0 +1,5 @@
+Design Parameters:
+
+Gear ratio: i = 2
+Module: m = 2 mm
+Face width: b = 20 mm
