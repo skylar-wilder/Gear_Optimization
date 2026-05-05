@@ -8,15 +8,16 @@ This project focuses on optimizing gear parameters and configurations to achieve
 
 ```
 Gear_Optimization/
-├── README.md                 # Project documentation and setup instructions
-├── src/                      # Main source code directory
-├── data/                     # Input data and test cases
-├── results/                  # Generated results and outputs
-├── tests/                    # Unit tests and validation scripts
-└── requirements.txt          # Python dependencies
+├── 1_Report/                      #Final Paper to cite
+├── 2_Presentation/                #Presentation on the Final Paper
+├── 3_Code/                        #Simulation Code
+├── 4_Data_Results/                #Data used as input and received outputs
+├── 5_Literature/                  #A few Literature pieces reviwed for the project
+├── 6_Method_Trace/                #Modeling Desicisions
+├── 7_Reproducibility/             #Reproducing in your own PC
+└── README.md
 ```
 
-**Note:** Adjust the folder structure above to match your actual project layout.
 
 ## Instructions to Run the Code
 
@@ -24,6 +25,8 @@ Gear_Optimization/
 
 - Python 3.8 or higher
 - pip package manager
+- Numpy
+- Matplotlib
 
 ### Setup
 
@@ -33,33 +36,22 @@ git clone https://github.com/skylar-wilder/Gear_Optimization.git
 cd Gear_Optimization
 ```
 
-2. Install dependencies:
+2. Run the main optimization script:
 ```bash
-pip install -r requirements.txt
+python 3_code/ME701.py
 ```
 
-3. Run the main optimization script:
-```bash
-python src/main.py
-```
-
-### Running Tests
-
-To verify the implementation:
-```bash
-python -m pytest tests/
-```
 
 ## Location of Main Results
 
-All optimization results and outputs are saved to the `results/` directory. Key output files include:
+All optimization results, outputs and inputs are saved to the `4_Data_Results/` directory. Key output files include:
 
-- **Optimization logs**: `results/optimization_log.txt`
-- **Performance metrics**: `results/metrics.json`
-- **Optimized parameters**: `results/optimized_config.csv`
-- **Visualizations**: `results/plots/` (graphs and charts)
+- **Reference and Initialization** : in the subfolder `Input data/` include both the files with the data chosen.
+- **Main result** : the final optimized value and a comparision of the same with the baseline are present in the subfolder `processed data/`.
+- **Outputs** - the .stp files for the gears used as reference and the optimized gears are both present in the `outputs/` subfolder
+- **Plots** - the plots of how Life varies with teh design variables and through different iterations is given in the `plots/` subfolder
 
-For detailed analysis, refer to the generated reports in the `results/` directory after running the optimization scripts.
+For detailed analysis and explaination of the theory used, refer to the report in the `1_Report/` directory.
 
 ## Contributing
 
